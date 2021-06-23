@@ -1,0 +1,11 @@
+{ application, core_specs_alpha
+, [ {vsn, git}
+  , {description, "Clojure library containining specs to describe Clojure core macros and functions"}
+  , {modules, []}
+  , { applications
+    , [ stdlib
+      , kernel
+      ]
+    }
+  ]
+}.
