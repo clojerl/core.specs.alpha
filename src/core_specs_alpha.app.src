@@ -4,6 +4,7 @@
   , {modules, []}
   , {applications, [stdlib, kernel]}
   , {licenses, ["EPL v1.0"]}
+  , {pkg_name, clje_core_specs_alpha}
   , { links
     , [ {"GitHub", "https://github.com/clojerl/core.specs.alpha"}
       , {"Website", "http://clojerl.org"}
