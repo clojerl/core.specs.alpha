@@ -2,9 +2,12 @@
 , [ {vsn, git}
   , {description, "Clojure library containining specs to describe Clojure core macros and functions"}
   , {modules, []}
-  , { applications
-    , [ stdlib
-      , kernel
+  , {applications, [stdlib, kernel]}
+  , {licenses, ["EPL v1.0"]}
+  , { links
+    , [ {"GitHub", "https://github.com/clojerl/core.specs.alpha"}
+      , {"Website", "http://clojerl.org"}
+      , {"Try Online", "http://try.clojerl.online"}
       ]
     }
   ]
